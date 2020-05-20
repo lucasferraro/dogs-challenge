@@ -1,0 +1,25 @@
+tbody tr {
+  cursor: pointer;
+}
+
+.back-top-btn {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 99;
+}
+
+.container-image {
+  position: relative;
+}
+
+.container-image img {
+  height: auto;
+}
+
+.container-image .btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+}

@@ -1,0 +1,39 @@
+{
+  "name": "dogs-challenge",
+  "version": "0.0.1",
+  "description": "Challenge - Dog Team",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --config webpack.config.js",
+    "test": "mochapack --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js",
+    "test-until-fail": "while clear & npm test; do :; done"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.7",
+    "vue-toast-notification": "^0.3.0",
+    "vuex": "^3.2.0",
+    "vuex-persistedstate": "^3.0.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.33",
+    "css-loader": "^3.5.2",
+    "expect": "^25.5.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jsdom": "^16.2.2",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^7.1.2",
+    "mochapack": "^1.1.15",
+    "sinon": "^9.0.2",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
